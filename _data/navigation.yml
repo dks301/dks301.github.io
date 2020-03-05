@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Java"
+    url: /java/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
