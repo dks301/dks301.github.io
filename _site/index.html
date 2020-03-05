@@ -5,22 +5,22 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
+<html lang="ko" class="no-js">
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Site Title</title>
+<!-- begin _includes/seo.html --><title>연습용 Blog</title>
 <meta name="description" content="An amazing website. ">
 
 
-  <meta name="author" content="Your Name">
+  <meta name="author" content="안형주">
 
 
 <meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Site Title">
-<meta property="og:title" content="Site Title">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="연습용 Blog">
+<meta property="og:title" content="연습용 Blog">
+<meta property="og:url" content="http://localhost:4000/blog/">
 
 
   <meta property="og:description" content="An amazing website. ">
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/blog/">
 
 
 
@@ -50,8 +50,8 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "Your Name",
-      "url": "http://localhost:4000/"
+      "name": "안형주",
+      "url": "http://localhost:4000/blog/"
     
   }
 </script>
@@ -64,7 +64,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
+<link href="/blog/feed.xml" type="application/atom+xml" rel="alternate" title="연습용 Blog Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -74,7 +74,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/blog/assets/css/main.css">
 
 <!--[if IE]>
   <style>
@@ -122,16 +122,29 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/">
-          Site Title
-          
+        <a class="site-title" href="/blog/">
+          연습용 Blog
+          <span class="site-subtitle">Version 1.0</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
+              <a href="/blog/categories/" >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/tags/" >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/posts/" >연도별 포스트</a>
             </li></ul>
         
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
+          <span class="visually-hidden">토글 메뉴</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -155,25 +168,33 @@
 <div itemscope itemtype="https://schema.org/Person">
 
   
+    <div class="author__avatar">
+      
+
+      
+        <img src="/blog/assets/images/profile/whyprogramming.jpg" alt="안형주" itemprop="image">
+      
+    </div>
+  
 
   <div class="author__content">
     
-      <h3 class="author__name" itemprop="name">Your Name</h3>
+      <h3 class="author__name" itemprop="name">안형주</h3>
     
     
       <div class="author__bio" itemprop="description">
-        <p>I am an <strong>amazing</strong> person.</p>
+        <p>안녕하세요</p>
 
       </div>
     
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">팔로우</button>
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Somewhere</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Republic of Korea</span>
         </li>
       
 
@@ -182,19 +203,24 @@
           
         
           
-        
+            <li><a href="http://dks301.github.io/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
           
         
           
-        
-          
-        
+            <li><a href="https://github.com/dks301" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
           
         
       
 
       
 
+      
+        <li>
+          <a href="mailto:a301dks@naver.com">
+            <meta itemprop="email" content="a301dks@naver.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> 이메일
+          </a>
+        </li>
       
 
       
@@ -262,7 +288,7 @@
     
     
 
-<h3 class="archive__subtitle">Recent posts</h3>
+<h3 class="archive__subtitle">최근 포스트</h3>
 
 
 
@@ -276,6 +302,17 @@
     </div>
 
     
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="검색어를 입력하세요..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
 
     <div id="footer" class="page__footer">
       <footer>
@@ -285,15 +322,21 @@
         <div class="page__footer-follow">
   <ul class="social-icons">
     
-      <li><strong>Follow:</strong></li>
+      <li><strong>팔로우:</strong></li>
     
 
     
       
         
+          <li><a href="mailto:a301dks@naver.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
       
         
       
+        
+      
+        
+          <li><a href="https://github.com/dks301" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
@@ -304,21 +347,25 @@
       
     
 
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="/blog/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2020 안형주. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
-  <script src="/assets/js/main.min.js"></script>
+  <script src="/blog/assets/js/main.min.js"></script>
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
 
+
+<script src="/blog/assets/js/lunr/lunr.min.js"></script>
+<script src="/blog/assets/js/lunr/lunr-store.js"></script>
+<script src="/blog/assets/js/lunr/lunr-en.js"></script>
 
 
 

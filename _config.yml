@@ -22,7 +22,7 @@ subtitle                 : "Version 1.0"# site tagline that appears below site t
 name                     : "안형주"
 description              : "An amazing website."
 url                      : "https://dks301.github.io" # the base hostname & protocol for your site e.g.
-baseurl                  : "/blog"# the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "dks301/dks301.github.io"# GitHub username/repo-name e.g.
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
