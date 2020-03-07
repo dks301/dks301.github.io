@@ -2,6 +2,7 @@
 title: "About"
 permalink: /about/
 layout: single
+comments: false
 ---
 
 ## dks301.github.io 블로그
