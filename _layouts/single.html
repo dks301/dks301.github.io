@@ -56,17 +56,6 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
         {% endif %}
-
-        {% if page.comments %}
-          <script src="https://utteranc.es/client.js"
-                  repo="dks301/blog-comments"
-                  issue-term="pathname"
-                  theme="github-light"
-                  crossorigin="anonymous"
-                  async>
-          </script>
-        {% endif %}
-
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
