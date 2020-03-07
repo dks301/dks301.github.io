@@ -24,7 +24,7 @@ description              : "공부용 블로그"
 url                      : "https://dks301.github.io" # the base hostname & protocol for your site e.g.
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "dks301/dks301.github.io"# GitHub username/repo-name e.g.
-teaser                   : "assets/images/light-bulb.jpg"# path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "이름 고민중"# overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "시카"
-  avatar           : "/assets/images/light-bulb.jpg" #"/assets/images/profile/poto.jpg" # 프로필 이미지
+  avatar           : "/assets/images/profile/light-bulb.jpg" #"/assets/images/profile/poto.jpg" # 프로필 이미지
   bio              : "Thinking"
   location         : "Republic of Korea"
   email            : "a301dks@naver.com"
