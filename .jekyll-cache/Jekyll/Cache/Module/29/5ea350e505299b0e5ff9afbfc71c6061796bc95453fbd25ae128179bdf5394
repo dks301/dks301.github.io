@@ -1,4 +1,4 @@
-I"�
+I"�
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -6,8 +6,8 @@
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
-          연습용 Blog
-          <span class="site-subtitle">Version 1.0</span>
+          이름 고민중
+          
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/programming/" >Programming</a>
