@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "default" # 테마 색 설정 "air", "aqua", "contras
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "이름 고민중"
+title                    : "코드 키친"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "시카"
-description              : "공부용 블로그"
+description              : "코드를 요리하는 블로그입니다"
 url                      : "https://dks301.github.io" # the base hostname & protocol for your site e.g.
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "dks301/dks301.github.io"# GitHub username/repo-name e.g.
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "이름 고민중"# overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "코드 키친"# overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:

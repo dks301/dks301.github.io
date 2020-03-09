@@ -1,0 +1,168 @@
+I"�<h2 id="마크-다운-문법-정리">마크 다운 문법 정리</h2>
+<p>Github 블로그나 Repository의 README.md를 작성하기 위한 마크 다운 문법 정리입니다.<br />
+<del>제가 보려고</del>
+실제 markdown으로 작성한 글, html으로 보여지는 화면 순으로 작성했습니다.<br />
+공백을 직접 보시려면 드래그를 해보세요.</p>
+
+<h3 id="1-줄바꿈">1. 줄바꿈</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>마크 다운은 줄바꿈(개행)이
+자동으로 되지않습니다.  
+줄바꿈을 하려면 라인 끝에 스페이스를 2번  
+넣어 주세요.
+</code></pre></div></div>
+<hr />
+<p><span style="background-color:#F8F9F9;font-size:16px;">
+마크 다운은 줄바꿈(개행)이
+자동으로 되지않습니다.<br />
+줄바꿈을 하려면 라인 끝에 스페이스를 2번<br />
+넣어 주세요.
+</span></p>
+
+<h3 id="2-폰트-스타일">2. 폰트 스타일</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>이탤릭체를 사용하려면 *this*  
+볼드체를 사용하려면 **this**  
+취소선을 사용하려면 ~~this~~  
+</code></pre></div></div>
+<hr />
+<p><span style="background-color:#F8F9F9;font-size:16px;">
+이탤릭체를 사용하려면 <em>this</em><br />
+볼드체를 사용하려면 <strong>this</strong><br />
+취소선을 사용하려면 <del>this</del><br />
+</span></p>
+
+<h3 id="3-헤더">3. 헤더</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#h1은 이정도  
+##h2  
+###h3  
+####h4  
+#####h5  
+######h6 까지  
+</code></pre></div></div>
+<blockquote>
+  <p>기호와 문장사이를 스페이스로 <strong>꼭</strong> 띄워줘야 합니다.(비슷한 문법 공통)</p>
+</blockquote>
+
+<hr />
+
+<h1 id="h1은-이정도">h1은 이정도</h1>
+<h2 id="h2">h2</h2>
+<h3 id="h3">h3</h3>
+<h4 id="h4">h4</h4>
+<h5 id="h5">h5</h5>
+<h6 id="h6-까지">h6 까지</h6>
+
+<h3 id="4-인용문">4. 인용문</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; depth1  
+&gt;&gt; depth2  
+&gt;&gt;&gt; depth3  
+</code></pre></div></div>
+<hr />
+
+<blockquote>
+  <p>depth1</p>
+  <blockquote>
+    <p>depth2</p>
+    <blockquote>
+      <p>depth3</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<h3 id="5-목록">5. 목록</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>순서 있는 목록은  
+1. 일
+2. 이
+3. 삼  
+  
+순서 없는 목록은  
+* 하나
+    * 둘
+        * 셋  
+  
+</code></pre></div></div>
+<hr />
+
+<p>순서 있는 목록은</p>
+<ol>
+  <li>일</li>
+  <li>이</li>
+  <li>삼</li>
+</ol>
+
+<p>순서 없는 목록은</p>
+<ul>
+  <li>하나
+    <ul>
+      <li>둘
+        <ul>
+          <li>셋</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="6-코드-블럭">6. 코드 블럭</h3>
+<div class="highlighter-rouge">
+<pre class="highlight">
+    <code>
+```java
+public void foo() {
+    foo2();
+}
+```
+    </code>
+</pre>
+</div>
+
+<blockquote>
+  <p>언어 설정은 c, python같은 다른 언어나 공백도 가능합니다.</p>
+</blockquote>
+
+<hr />
+
+<div class="highlighter-rouge">
+<pre class="highlight" style="background-color:#f8f9f9;color:#494e52;">
+<code>
+public void foo() {
+    foo2();
+}
+</code>
+</pre>
+</div>
+
+<h3 id="7-수평선">7. 수평선</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***
+
+---
+
+* * *
+
+- - -
+
+모두 가능  
+</code></pre></div></div>
+
+<blockquote>
+  <p>엔터로 한 줄을 띄워야 적용됩니다.</p>
+</blockquote>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<hr />
+
+<hr />
+
+<h3 id="8-폰트-스타일">8. 폰트 스타일</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>이탤릭체를 사용하려면 *this*
+볼드체를 사용하려면 **this**
+취소선을 사용하려면 ~~this~~
+</code></pre></div></div>
+<hr />
+<p><span style="background-color:#F8F9F9;font-size:16px;">
+</span></p>
+:ET

@@ -1,16 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-08T18:34:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">이름 고민중</title><subtitle>공부용 블로그</subtitle><author><name>시카</name><email>a301dks@naver.com</email></author><entry><title type="html">마크 다운 문법 정리</title><link href="http://localhost:4000/programming/" rel="alternate" type="text/html" title="마크 다운 문법 정리" /><published>2020-03-08T00:00:00+09:00</published><updated>2020-03-08T00:00:00+09:00</updated><id>http://localhost:4000/markdown</id><content type="html" xml:base="http://localhost:4000/programming/">&lt;h2 id=&quot;마크-다운-문법-정리&quot;&gt;마크 다운 문법 정리&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-09T16:01:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">코드 키친</title><subtitle>코드를 요리하는 블로그입니다</subtitle><author><name>시카</name><email>a301dks@naver.com</email></author><entry><title type="html">마크 다운 문법 정리</title><link href="http://localhost:4000/programming/" rel="alternate" type="text/html" title="마크 다운 문법 정리" /><published>2020-03-08T00:00:00+09:00</published><updated>2020-03-08T00:00:00+09:00</updated><id>http://localhost:4000/markdown</id><content type="html" xml:base="http://localhost:4000/programming/">&lt;h2 id=&quot;마크-다운-문법-정리&quot;&gt;마크 다운 문법 정리&lt;/h2&gt;
 &lt;p&gt;Github 블로그나 Repository의 README.md를 작성하기 위한 마크 다운 문법 정리입니다.&lt;br /&gt;
-markdown 문법, html의 화면 순으로 작성했습니다.&lt;/p&gt;
+&lt;del&gt;제가 보려고&lt;/del&gt;
+실제 markdown으로 작성한 글, html으로 보여지는 화면 순으로 작성했습니다.&lt;br /&gt;
+공백을 직접 보시려면 드래그를 해보세요.&lt;/p&gt;
 
 &lt;h3 id=&quot;1-줄바꿈&quot;&gt;1. 줄바꿈&lt;/h3&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;마크 다운은 줄바꿈(개행)이
-자동으로 되지않습니다.
-줄바꿈을 하려면 문장 끝에 스페이스를 2번  
-해야합니다.
+자동으로 되지않습니다.  
+줄바꿈을 하려면 라인 끝에 스페이스를 2번  
+넣어 주세요.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;background-color:#F8F9F9;font-size:16px;&quot;&gt;
+마크 다운은 줄바꿈(개행)이
+자동으로 되지않습니다.&lt;br /&gt;
+줄바꿈을 하려면 라인 끝에 스페이스를 2번&lt;br /&gt;
+넣어 주세요.
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-폰트-스타일&quot;&gt;2. 폰트 스타일&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;이탤릭체를 사용하려면 *this*  
+볼드체를 사용하려면 **this**  
+취소선을 사용하려면 ~~this~~  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;background-color:#F8F9F9;font-size:16px;&quot;&gt;
+이탤릭체를 사용하려면 &lt;em&gt;this&lt;/em&gt;&lt;br /&gt;
+볼드체를 사용하려면 &lt;strong&gt;this&lt;/strong&gt;&lt;br /&gt;
+취소선을 사용하려면 &lt;del&gt;this&lt;/del&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-헤더&quot;&gt;3. 헤더&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#h1은 이정도  
+##h2  
+###h3  
+####h4  
+#####h5  
+######h6 까지  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;기호와 문장사이를 스페이스로 &lt;strong&gt;꼭&lt;/strong&gt; 띄워줘야 합니다.(비슷한 문법 공통)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;h1은-이정도&quot;&gt;h1은 이정도&lt;/h1&gt;
+&lt;h2 id=&quot;h2&quot;&gt;h2&lt;/h2&gt;
+&lt;h3 id=&quot;h3&quot;&gt;h3&lt;/h3&gt;
+&lt;h4 id=&quot;h4&quot;&gt;h4&lt;/h4&gt;
+&lt;h5 id=&quot;h5&quot;&gt;h5&lt;/h5&gt;
+&lt;h6 id=&quot;h6-까지&quot;&gt;h6 까지&lt;/h6&gt;
+
+&lt;h3 id=&quot;4-인용문&quot;&gt;4. 인용문&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; depth1  
+&amp;gt;&amp;gt; depth2  
+&amp;gt;&amp;gt;&amp;gt; depth3  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;depth1&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;depth2&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;depth3&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;5-목록&quot;&gt;5. 목록&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;순서 있는 목록은  
+1. 일
+2. 이
+3. 삼  
+  
+순서 없는 목록은  
+* 하나
+    * 둘
+        * 셋  
+  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;순서 있는 목록은&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;일&lt;/li&gt;
+  &lt;li&gt;이&lt;/li&gt;
+  &lt;li&gt;삼&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;순서 없는 목록은&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;하나
+    &lt;ul&gt;
+      &lt;li&gt;둘
+        &lt;ul&gt;
+          &lt;li&gt;셋&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;6-코드-블럭&quot;&gt;6. 코드 블럭&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;
+    &lt;code&gt;
+```java
+public void foo() {
+    foo2();
+}
+```
+    &lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;언어 설정은 c, python같은 다른 언어나 공백도 가능합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;
+&lt;pre class=&quot;highlight&quot; style=&quot;background-color:#f8f9f9;color:#494e52;&quot;&gt;
+&lt;code&gt;
+public void foo() {
+    foo2();
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;7-수평선&quot;&gt;7. 수평선&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;***
+
+---
+
+* * *
+
+- - -
+
+모두 가능  
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;마크 다운은 줄바꿈(개행)이
-자동으로 되지않습니다.
-줄바꿈을 하려면 줄의 끝에 스페이스를 2번  
-해야합니다.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>시카</name><email>a301dks@naver.com</email></author><category term="Blog" /><category term="Github pages" /><category term="README" /><category term="Markdown" /><summary type="html">첫번째 글 - 마크 다운 문법</summary></entry></feed>
+&lt;blockquote&gt;
+  &lt;p&gt;엔터로 한 줄을 띄워야 적용됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;8-폰트-스타일&quot;&gt;8. 폰트 스타일&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;이탤릭체를 사용하려면 *this*
+볼드체를 사용하려면 **this**
+취소선을 사용하려면 ~~this~~
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;span style=&quot;background-color:#F8F9F9;font-size:16px;&quot;&gt;
+&lt;/span&gt;&lt;/p&gt;</content><author><name>시카</name><email>a301dks@naver.com</email></author><category term="Blog" /><category term="Github pages" /><category term="README" /><category term="Markdown" /><summary type="html">첫번째 글 - 마크 다운 문법</summary></entry></feed>

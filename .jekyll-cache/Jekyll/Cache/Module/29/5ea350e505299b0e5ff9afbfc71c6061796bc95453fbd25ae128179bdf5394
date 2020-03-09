@@ -1,4 +1,4 @@
-I"Z
+I"�
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -6,7 +6,7 @@
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
-          이름 고민중
+          코드 키친
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
@@ -24,6 +24,9 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+  </div>
+  <div style="text-align:center;">
+    <image src="/assets/images/codekitchen.png" style="max-width:100%; height:auto;"></image>
   </div>
 </div>
 :ET
