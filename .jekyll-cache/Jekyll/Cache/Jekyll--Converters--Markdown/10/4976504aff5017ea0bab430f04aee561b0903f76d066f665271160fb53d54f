@@ -1,4 +1,4 @@
-I"�<h2 id="마크-다운-문법-정리">마크 다운 문법 정리</h2>
+I"<h2 id="마크-다운-문법-정리">마크 다운 문법 정리</h2>
 <p>Github 블로그나 Repository의 README.md를 작성하기 위한 마크 다운 문법 정리입니다.<br />
 <del>제가 보려고</del>
 실제 markdown으로 작성한 글, html으로 보여지는 화면 순으로 작성했습니다.<br />
@@ -167,14 +167,41 @@ URL 링크: <a href="https://google.com/">https://google.com/</a><br />
 이메일 링크: <a href="mailto:exampleId@example.com">exampleId@example.com</a></p>
 
 <h3 id="9-이미지">9. 이미지</h3>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg)  
-![](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg){:.align-center}  
-![전구](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg)  
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg){:width="100" height="100"}  
 </code></pre></div></div>
+
+<blockquote>
+  <p>가로 세로 100px인 전구</p>
+</blockquote>
+
 <hr />
 
-<p><img src="https://dks301.github.io/assets/images/profile/small-light-bulb.jpg" alt="" /><br />
-<img src="https://dks301.github.io/assets/images/profile/small-light-bulb.jpg" alt="" /><br />
-<img src="https://dks301.github.io/assets/images/profile/small-light-bulb.jpg" alt="전구" /></p>
+<p><img src="https://dks301.github.io/assets/images/profile/small-light-bulb.jpg" alt="" width="100" height="100" /></p>
 
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg){:.aligncenter width="50%" height="50%"}  
+</code></pre></div></div>
+
+<blockquote>
+  <p>가로 세로 50%인 가운데 정렬한 전구</p>
+</blockquote>
+
+<hr />
+
+<p><img src="https://dks301.github.io/assets/images/profile/small-light-bulb.jpg" alt="" class="align-center" width="50%" height="50%" /></p>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![전구](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg){:.alignright}  
+</code></pre></div></div>
+
+<blockquote>
+  <p>우측 정렬한 기본 사이즈 전구</p>
+</blockquote>
+
+<hr />
+
+<p><img src="https://dks301.github.io/assets/images/profile/small-light-bulb.jpg" alt="전구" class="align-right" /></p>
 :ET
