@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-09T16:01:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">코드 키친</title><subtitle>코드를 요리하는 블로그입니다</subtitle><author><name>시카</name><email>a301dks@naver.com</email></author><entry><title type="html">마크 다운 문법 정리</title><link href="http://localhost:4000/programming/" rel="alternate" type="text/html" title="마크 다운 문법 정리" /><published>2020-03-08T00:00:00+09:00</published><updated>2020-03-08T00:00:00+09:00</updated><id>http://localhost:4000/markdown</id><content type="html" xml:base="http://localhost:4000/programming/">&lt;h2 id=&quot;마크-다운-문법-정리&quot;&gt;마크 다운 문법 정리&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-09T16:22:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">코드 키친</title><subtitle>코드를 요리하는 블로그입니다</subtitle><author><name>시카</name><email>a301dks@naver.com</email></author><entry><title type="html">마크 다운 문법 정리</title><link href="http://localhost:4000/programming/" rel="alternate" type="text/html" title="마크 다운 문법 정리" /><published>2020-03-08T00:00:00+09:00</published><updated>2020-03-08T00:00:00+09:00</updated><id>http://localhost:4000/markdown</id><content type="html" xml:base="http://localhost:4000/programming/">&lt;h2 id=&quot;마크-다운-문법-정리&quot;&gt;마크 다운 문법 정리&lt;/h2&gt;
 &lt;p&gt;Github 블로그나 Repository의 README.md를 작성하기 위한 마크 다운 문법 정리입니다.&lt;br /&gt;
 &lt;del&gt;제가 보려고&lt;/del&gt;
 실제 markdown으로 작성한 글, html으로 보여지는 화면 순으로 작성했습니다.&lt;br /&gt;
@@ -11,12 +11,11 @@
 넣어 주세요.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;span style=&quot;background-color:#F8F9F9;font-size:16px;&quot;&gt;
-마크 다운은 줄바꿈(개행)이
+
+&lt;p&gt;마크 다운은 줄바꿈(개행)이
 자동으로 되지않습니다.&lt;br /&gt;
 줄바꿈을 하려면 라인 끝에 스페이스를 2번&lt;br /&gt;
-넣어 주세요.
-&lt;/span&gt;&lt;/p&gt;
+넣어 주세요.&lt;/p&gt;
 
 &lt;h3 id=&quot;2-폰트-스타일&quot;&gt;2. 폰트 스타일&lt;/h3&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;이탤릭체를 사용하려면 *this*  
@@ -24,11 +23,10 @@
 취소선을 사용하려면 ~~this~~  
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;span style=&quot;background-color:#F8F9F9;font-size:16px;&quot;&gt;
-이탤릭체를 사용하려면 &lt;em&gt;this&lt;/em&gt;&lt;br /&gt;
+
+&lt;p&gt;이탤릭체를 사용하려면 &lt;em&gt;this&lt;/em&gt;&lt;br /&gt;
 볼드체를 사용하려면 &lt;strong&gt;this&lt;/strong&gt;&lt;br /&gt;
-취소선을 사용하려면 &lt;del&gt;this&lt;/del&gt;&lt;br /&gt;
-&lt;/span&gt;&lt;/p&gt;
+취소선을 사용하려면 &lt;del&gt;this&lt;/del&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;3-헤더&quot;&gt;3. 헤더&lt;/h3&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#h1은 이정도  
@@ -157,11 +155,24 @@ public void foo() {
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;8-폰트-스타일&quot;&gt;8. 폰트 스타일&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;이탤릭체를 사용하려면 *this*
-볼드체를 사용하려면 **this**
-취소선을 사용하려면 ~~this~~
+&lt;h3 id=&quot;8-링크&quot;&gt;8. 링크&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;이름 있는 링크: [Google](https://google.com, &quot;구글 링크!&quot;)  
+URL 링크: &amp;lt;https://google.com/&amp;gt;  
+이메일 링크: &amp;lt;exampleId@example.com&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;span style=&quot;background-color:#F8F9F9;font-size:16px;&quot;&gt;
-&lt;/span&gt;&lt;/p&gt;</content><author><name>시카</name><email>a301dks@naver.com</email></author><category term="Blog" /><category term="Github pages" /><category term="README" /><category term="Markdown" /><summary type="html">첫번째 글 - 마크 다운 문법</summary></entry></feed>
+
+&lt;p&gt;이름 있는 링크: &lt;a href=&quot;https://google.com,&quot; title=&quot;구글 링크!&quot;&gt;Google&lt;/a&gt;&lt;br /&gt;
+URL 링크: &lt;a href=&quot;https://google.com/&quot;&gt;https://google.com/&lt;/a&gt;&lt;br /&gt;
+이메일 링크: &lt;a href=&quot;mailto:exampleId@example.com&quot;&gt;exampleId@example.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;9-이미지&quot;&gt;9. 이미지&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg)  
+![](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg){:.align-center}  
+![전구](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg)  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dks301.github.io/assets/images/profile/small-light-bulb.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://dks301.github.io/assets/images/profile/small-light-bulb.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://dks301.github.io/assets/images/profile/small-light-bulb.jpg&quot; alt=&quot;전구&quot; /&gt;&lt;/p&gt;</content><author><name>시카</name><email>a301dks@naver.com</email></author><category term="Blog" /><category term="Github pages" /><category term="README" /><category term="Markdown" /><summary type="html">첫번째 글 - 마크 다운 문법</summary></entry></feed>

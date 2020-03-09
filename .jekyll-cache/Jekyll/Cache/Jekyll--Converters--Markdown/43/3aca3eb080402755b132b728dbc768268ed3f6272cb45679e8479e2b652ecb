@@ -1,4 +1,4 @@
-I"�<ul class="toc__menu">
+I"�<ul class="toc__menu">
   <li><a href="#마크-다운-문법-정리">마크 다운 문법 정리</a>
     <ul>
       <li><a href="#1-줄바꿈">1. 줄바꿈</a></li>
@@ -25,7 +25,8 @@
       <li><a href="#5-목록">5. 목록</a></li>
       <li><a href="#6-코드-블럭">6. 코드 블럭</a></li>
       <li><a href="#7-수평선">7. 수평선</a></li>
-      <li><a href="#8-폰트-스타일">8. 폰트 스타일</a></li>
+      <li><a href="#8-링크">8. 링크</a></li>
+      <li><a href="#9-이미지">9. 이미지</a></li>
     </ul>
   </li>
 </ul>

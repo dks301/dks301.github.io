@@ -1,4 +1,4 @@
-I"�<h2 id="마크-다운-문법-정리">마크 다운 문법 정리</h2>
+I"�<h2 id="마크-다운-문법-정리">마크 다운 문법 정리</h2>
 <p>Github 블로그나 Repository의 README.md를 작성하기 위한 마크 다운 문법 정리입니다.<br />
 <del>제가 보려고</del>
 실제 markdown으로 작성한 글, html으로 보여지는 화면 순으로 작성했습니다.<br />
@@ -11,12 +11,11 @@
 넣어 주세요.
 </code></pre></div></div>
 <hr />
-<p><span style="background-color:#F8F9F9;font-size:16px;">
-마크 다운은 줄바꿈(개행)이
+
+<p>마크 다운은 줄바꿈(개행)이
 자동으로 되지않습니다.<br />
 줄바꿈을 하려면 라인 끝에 스페이스를 2번<br />
-넣어 주세요.
-</span></p>
+넣어 주세요.</p>
 
 <h3 id="2-폰트-스타일">2. 폰트 스타일</h3>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>이탤릭체를 사용하려면 *this*  
@@ -24,11 +23,10 @@
 취소선을 사용하려면 ~~this~~  
 </code></pre></div></div>
 <hr />
-<p><span style="background-color:#F8F9F9;font-size:16px;">
-이탤릭체를 사용하려면 <em>this</em><br />
+
+<p>이탤릭체를 사용하려면 <em>this</em><br />
 볼드체를 사용하려면 <strong>this</strong><br />
-취소선을 사용하려면 <del>this</del><br />
-</span></p>
+취소선을 사용하려면 <del>this</del></p>
 
 <h3 id="3-헤더">3. 헤더</h3>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#h1은 이정도  
@@ -157,12 +155,26 @@ public void foo() {
 
 <hr />
 
-<h3 id="8-폰트-스타일">8. 폰트 스타일</h3>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>이탤릭체를 사용하려면 *this*
-볼드체를 사용하려면 **this**
-취소선을 사용하려면 ~~this~~
+<h3 id="8-링크">8. 링크</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>이름 있는 링크: [Google](https://google.com, "구글 링크!")  
+URL 링크: &lt;https://google.com/&gt;  
+이메일 링크: &lt;exampleId@example.com&gt;
 </code></pre></div></div>
 <hr />
-<p><span style="background-color:#F8F9F9;font-size:16px;">
-</span></p>
+
+<p>이름 있는 링크: <a href="https://google.com," title="구글 링크!">Google</a><br />
+URL 링크: <a href="https://google.com/">https://google.com/</a><br />
+이메일 링크: <a href="mailto:exampleId@example.com">exampleId@example.com</a></p>
+
+<h3 id="9-이미지">9. 이미지</h3>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg)  
+![](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg){:.align-center}  
+![전구](https://dks301.github.io/assets/images/profile/small-light-bulb.jpg)  
+</code></pre></div></div>
+<hr />
+
+<p><img src="https://dks301.github.io/assets/images/profile/small-light-bulb.jpg" alt="" /><br />
+<img src="https://dks301.github.io/assets/images/profile/small-light-bulb.jpg" alt="" /><br />
+<img src="https://dks301.github.io/assets/images/profile/small-light-bulb.jpg" alt="전구" /></p>
+
 :ET
