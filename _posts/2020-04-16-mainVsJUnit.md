@@ -92,7 +92,8 @@ public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 이렇게 main method의 문제점을 해결하기 위해서 등장한 도구가 바로 `JUnit`입니다.  
 특히, JUnit5와 asssertj를 활용한 메소드 체이닝으로 좀 더 깔끔하고 읽기 좋은 assert코드로 테스트가 가능합니다.  
 이제 위 예제를 JUnit기반 테스트로 바꾸어 보겠습니다.  
-정확히 기억은 나지 않지만 아마  1.DB데이터 변화가 생기면, 2.dataSnapshot을 통해, 3.해당 메서드가 동작  
+정확히 기억은 나지 않지만  
+1.DB데이터 변화가 생기면, 2.dataSnapshot을 통해, 3.해당 메서드가 동작  
 위와 같이 가정하고 테스트 코드를 간단하게 작성해보겠습니다.
 ```java
 @DisplayName("DB에 유저를 추가했을 때 dataSnapshot이 정상적으로 변환되는지 확인")
@@ -121,7 +122,7 @@ public void onDataChangeTest() {
     assertThat(dataSnapshot.getLastUser()).isEqualTo(user);
 }
 ```
-
+---
 이제 두 가지 테스트를 보면서 main method test의 문제점이 해결되었는지 알아보겠습니다.
  * ~~Test 코드가 실 서비스에 같이 배포된다.~~(해결)
     * 위 테스트는 프로덕션 코드 위치인 src 디렉토리가 아니라 test 디렉토리에 위치하므로 따로 배포할 수 있습니다.
