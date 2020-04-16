@@ -1,7 +1,7 @@
 ---
 title:  "main method vs JUnit"
 excerpt: "우아한 테크코스 - 1주차"
-permalink: /woowacourse
+permalink: /woowacourse/1
 categories:
     - Programming
 
